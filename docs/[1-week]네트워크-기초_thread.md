@@ -780,7 +780,7 @@ class ThreadLocalTest {
 프린터 큐를 예시로 들어 FIFO 에 대해서 알고 있다.
 
 ```java
-package org.example.fifo;
+package org.example.ch1.fifo;
 
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
@@ -821,7 +821,7 @@ public class JobQueue {
         }
     }
 
-    public void put(Object o){
+    public void put(Object o) {
         synchronized (monitor) {
             jobs.addLast(o);
             monitor.notify();
@@ -847,9 +847,7 @@ public class JobQueue {
 ```
 
 ```java
-package org.example.fifo;
-
-import java.util.Queue;
+package org.example.ch1.fifo;
 
 class Consumer implements Runnable {
     private JobQueue queue = null;
@@ -877,10 +875,10 @@ class Consumer implements Runnable {
 ```
 
 ```java
-package org.example.fifo;
+package org.example.ch1.fifo;
 
 class Producer implements Runnable {
-    private  JobQueue queue = null;
+    private JobQueue queue = null;
 
     public Producer(JobQueue queue) {
         this.queue = queue;
