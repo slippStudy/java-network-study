@@ -1,4 +1,4 @@
-package org.example;
+package org.example.ch1;
 
 class ThreadJoin {
 

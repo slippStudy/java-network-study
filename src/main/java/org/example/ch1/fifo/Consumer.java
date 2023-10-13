@@ -1,6 +1,4 @@
-package org.example.fifo;
-
-import java.util.Queue;
+package org.example.ch1.fifo;
 
 class Consumer implements Runnable {
     private JobQueue queue = null;

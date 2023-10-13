@@ -1,4 +1,4 @@
-package org.example.fifo;
+package org.example.ch1.fifo;
 
 class Producer implements Runnable {
     private  JobQueue queue = null;
