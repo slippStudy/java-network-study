@@ -22,6 +22,10 @@
 
 - [Github Discussion](https://github.com/slippStudy/java-network-study/discussions)에 각 주차별 디스커션을 열어 질문 및 자유롭게 답변한다
 
+### 내용 정리
+
+- [Docs](https://github.com/slippStudy/java-network-study/tree/main/docs) 에 공부한 내용을 자유롭게 정리한다
+
 ### 스터디 방식
 
 - 해당 주차 진행자의 재량에 따라 진행하되, 중간 회고를 통해 방식을 변경할 수 있다
@@ -33,5 +37,14 @@
 ### [1주차 (10/16)](https://github.com/slippStudy/java-network-study/discussions/1)
 
 > 진행자: 정규님
+>
 
-- 진도: 1, 2장 읽고, 질문 준비해 오기
+- 1, 2장 읽고, 질문 준비해 오기
+
+### [2주차 (10/23)](https://github.com/slippStudy/java-network-study/discussions/5)
+
+> 진행자: 진욱님
+>
+
+- 3장 ~ 4장 120p 까지 읽기
+- Discussion 에 질문 적어오기
