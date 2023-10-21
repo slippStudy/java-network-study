@@ -14,14 +14,9 @@ class ThreadJoin {
                 }
             }
         };
-        // 데몬스레드 설정
         t.start();
 
-//        try {
-            t.join();
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
+        t.join();
 
         System.out.println("Main() 종료");
     }

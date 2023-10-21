@@ -1,16 +1,16 @@
 package org.example.ch1;
 
-class ThreadGroupTest {
+class ThreadGroup {
 
     public static void main(String[] args) {
         System.out.println("ThreadGroupTest: " + Thread.currentThread());
 
-        ThreadGroup tg1 = new ThreadGroup(
+        java.lang.ThreadGroup tg1 = new java.lang.ThreadGroup(
                 Thread.currentThread().getThreadGroup(), "ThreadGroup1"
         );
 
-        ThreadGroup tg2 = new ThreadGroup("ThreadGroup2");
-        ThreadGroup tg3 = new ThreadGroup(tg1, "ThreadGroup3");
+        java.lang.ThreadGroup tg2 = new java.lang.ThreadGroup("ThreadGroup2");
+        java.lang.ThreadGroup tg3 = new java.lang.ThreadGroup(tg1, "ThreadGroup3");
 
         Thread t1 = new Thread(tg1, "Thread-1");
         Thread t2 = new Thread(tg2, "Thread-2");
