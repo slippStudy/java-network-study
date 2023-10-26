@@ -1,6 +1,8 @@
 package org.example.ch1;
 
+
 class ThreadGroupTest {
+
 
     public static void main(String[] args) {
         System.out.println("ThreadGroupTest: " + Thread.currentThread());

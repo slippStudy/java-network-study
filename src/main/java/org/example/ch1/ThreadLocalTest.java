@@ -11,19 +11,19 @@ class ThreadLocalTest {
     static Random random = new Random();
 
     // ThreadLocal 상속한 ThreadLocalObject 클래스 생성
-    private static class ThreadLocalObject extends ThreadLocal {
+
+    private static class ThreadLocalObject extends ThreadLocal<Integer> {
         Random random = new Random();
         // 초기값은 0~999 사이여야 한다.
 
         @Override
-        protected Object initialValue() {
+        protected Integer initialValue() {
             return random.nextInt(1000);
         }
     }
 
     //ThreadLocal 변수 생성
-    static ThreadLocal threadLocal = new ThreadLocalObject();
-
+    static ThreadLocal<Integer> threadLocal = new ThreadLocalObject();
     private static void displayValue() {
         System.out.println("Thread Name:" + Thread.currentThread().getName() +
                 ", initialValue:" + threadLocal.get() +
