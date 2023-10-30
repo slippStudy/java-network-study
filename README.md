@@ -57,3 +57,11 @@
 
 - 5 ~ 6장 읽기
 - Discussion 에 질문 or 인상 깊은 점 2개 적어오기
+
+### [4주차 (11/13)](https://github.com/slippStudy/java-network-study/discussions/10)
+
+> 진행자: 동훈님
+>
+
+- 7 ~ 8장 읽기
+- Discussion 에 질문 or 인상 깊은 점 2개 적어오기
