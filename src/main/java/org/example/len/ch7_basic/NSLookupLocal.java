@@ -1,4 +1,4 @@
-package org.example.len;
+package org.example.len.ch7_basic;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
