@@ -69,7 +69,23 @@
 ### [5주차 (11/20)](https://github.com/slippStudy/java-network-study/discussions/11)
 
 > 진행자: 동훈님, 윤혁님
-> 
+>
 
 - 9 ~ 10장 읽기
+- Discussion 에 질문 or 인상 깊은 점 2개 적어오기
+
+### [6주차 (12/4)](https://github.com/slippStudy/java-network-study/discussions/12)
+
+> 진행자: 윤혁님, 주현님
+>
+
+- 11 ~ 12장 읽기
+- Discussion 에 질문 or 인상 깊은 점 2개 적어오기
+
+### [7주차 (12/11)](https://github.com/slippStudy/java-network-study/discussions/13)
+
+> 진행자: 주현님, 진욱님, 윤혁님
+>
+
+- 13 ~ 14장 읽기
 - Discussion 에 질문 or 인상 깊은 점 2개 적어오기
