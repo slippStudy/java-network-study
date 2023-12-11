@@ -9,7 +9,7 @@ class MulticastClient {
      MulticastSocket receiver = null;
      DatagramPacket packet = null;
      InetAddress channel = null;
-     int port = 20001;
+     int port = 20009;
      String address = "239.0.0.1";
      byte[] b = new byte[100];
 

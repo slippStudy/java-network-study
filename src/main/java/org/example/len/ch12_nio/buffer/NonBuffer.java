@@ -25,7 +25,6 @@ class NonBuffer {
 
         while (true) {
             int bytedata = in.read();
-
             if (bytedata == -1) break;
             out.write(bytedata);
         }
