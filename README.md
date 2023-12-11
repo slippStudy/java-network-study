@@ -84,8 +84,16 @@
 
 ### [7주차 (12/11)](https://github.com/slippStudy/java-network-study/discussions/13)
 
-> 진행자: 주현님, 진욱님, 윤혁님
+> 진행자: 주현님, 진욱님
 >
 
 - 13 ~ 14장 읽기
+- Discussion 에 질문 or 인상 깊은 점 2개 적어오기
+
+### [8주차 (12/18)](https://github.com/slippStudy/java-network-study/discussions/14)
+
+> 진행자: 윤혁님, 정규님
+>
+
+- 14.4 ~ 15장 읽기
 - Discussion 에 질문 or 인상 깊은 점 2개 적어오기
