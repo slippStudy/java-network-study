@@ -6,6 +6,7 @@
 
 **자바 RMI의 기반 기술**
 
+// 원격 피시에 자바코드를 실행시키기 위한 목적으로 탄생
 
 
 물체 전송기 동작 원리
@@ -47,7 +48,7 @@ class ObjectStreamTest1 {
 
         fout = new FileOutputStream("object.txt");
         ObjectOutputStream oos = new ObjectOutputStream(fout);
-
+			// FileOutputStream 가능한데, ObjectOutputStream 왜 사용할까? @xx 없어서
         oos.writeObject(list);
         oos.reset();
         System.out.println("저장되었습니다.");
@@ -97,6 +98,8 @@ class ObjectStreamTest2 {
 }
 
 ```
+
+
 
 ## 객체 스트림
 

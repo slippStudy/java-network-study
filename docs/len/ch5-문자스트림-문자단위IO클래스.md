@@ -25,12 +25,12 @@ InputStream과 OutputStream 같이, Reader 와 Writer 라는 기본이 되는 �
 | 메소드                                                       | 설명                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | abstreact void close() throws IOException                    | 문자 입력 스트림을 닫는다.                                   |
-| void mark(int limit) throws IOException                      | 문자 입력 스트림의 현재 위치를 표시한다.                     |
+| **void mark(int limit) throws IOException**                  | 문자 입력 스트림의 현재 위치를 표시한다.                     |
 | int read( ) throws IOException                               | 단일 문자 읽기                                               |
 | int read(char buf[ ]) throws IOException                     | 문자 입력 스트림에서 buf[ ] 크기 만큼을 읽어 buf 에 저장     |
 | abstract int read(char buf[], int off, int len) throws IOException | 문자 입력 스트림에서 len만큼을 읽어 buf의 off 위치에 저장하고 읽은 문자 수 반환 |
-| boolean ready() throws IOException                           | 준비되었는지 확인하기 위해 리턴                              |
-| void reset( ) throws IOException                             | 문자 입력 스트림을 표시(mark)된 위치로 되돌림                |
+| **boolean ready() throws IOException**                       | 준비되었는지 확인하기 위해 리턴                              |
+| **void reset( ) throws IOException**                         | 문자 입력 스트림을 표시(mark)된 위치로 되돌림                |
 | long skip(long l) throws IOException                         | 주어진 개수 I만큼 문자 건너뜀                                |
 
 
@@ -105,6 +105,10 @@ class StreamReaderTest {
 
 
 
+
+
+
+
 **FileReader와 FileWriter**
 
 FileReader(String filepath) throws FileNotFountException - filepath로 지정한 파일에 대한 FileReader 객체를 생성
@@ -119,7 +123,7 @@ FileWriter(String filepath, boolean append)
 
 FileWriter(String fileObj)
 
-
+Size = 10G
 
 예시
 
@@ -143,6 +147,10 @@ PrintWriter클래스에는 print(), println() 등의 이름을 가진 다양한 
 | PrintWriter(OutputStream out, boolean autoFlush) | a                                               |
 | PrintWriter(Writer out)                          | Writer 인자로 받아 PrintWriter 객체 생성        |
 | PrintWriter(Writer out, boolean authFlush)       | 자동으로 flush() 메소드를 호출한 효과 발생      |
+
+
+
+
 
 
 
@@ -186,3 +194,4 @@ class CharArrayInputOutputTest {
 
 ```
 
+StringReader StringWriter
