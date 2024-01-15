@@ -5,6 +5,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.ScatteringByteChannel;
+import java.nio.channels.SelectableChannel;
+import java.nio.channels.SelectionKey;
 
 class StreamTest {
 

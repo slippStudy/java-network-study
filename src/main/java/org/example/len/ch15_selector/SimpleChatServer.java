@@ -28,7 +28,6 @@ class SimpleChatServer {
     public void initServer() {
         try {
 
-            selector = Selector.open();
 
             serverSocketChannel = ServerSocketChannel.open();
 
@@ -39,6 +38,8 @@ class SimpleChatServer {
             //주어진 파라미터에 해당하는 주소. 포트로 서버소켓을 바인드한다.
             InetSocketAddress isa = new InetSocketAddress(HOST, PORT);
             serverSocket.bind(isa);
+
+            selector = Selector.open();
 
             // 서버소켓채널을 셀렉터에 등록
             serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
@@ -55,6 +56,7 @@ class SimpleChatServer {
             while (true) {
                 logger.info("요청을 기다리는 중 ..");
                 // 셀렉터의 select() 메소드로 준비된 이벤트가 있는지 확인
+                // 다른 클라이언트가 들어와 있는지 없는지 여부를 파악하는 메소드
                 selector.select();
 
                 // 셀렉터의 SelectedSet에 저장된 준비된 이벤트(SelectionKey) 을 하나씩 처리

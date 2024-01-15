@@ -17,7 +17,6 @@ class EnumTest {
     void circle() {
         assertThat(DisplayType.DISPLAY_1.getServiceType().getDisplayTypes())
                 .contains(DisplayType.DISPLAY_1, DisplayType.DISPLAY_2);
-        URL
     }
 
     @Test
@@ -25,24 +24,5 @@ class EnumTest {
         assertThat(ServiceType.get("SERVICE_A"))
                 .contains(DisplayType.DISPLAY_1, DisplayType.DISPLAY_2);
     }
-//
-//    @Test
-//    void alwaysTrueTest2() {
-//        List<DisplayType> displayTypes = ServiceType.SERVICE_A.getDisplayTypes();
-//        assertThat(displayTypes).contains(DisplayType.DISPLAY_1);
-//    }
-//
-//    @Test
-//    void alwaysTrueTest3() {
-//        List<DisplayType> displayTypes = ServiceType.SERVICE_A.getDisplayTypes();
-//        DisplayType display1 = DisplayType.DISPLAY_1;
-//        assertThat(displayTypes).contains(display1);
-//    }
-
-//    @Test
-//    void zxc() {
-//        assertThat(DisplayType.DISPLAY_1.getServiceType()).isEqualTo(ServiceType.SERVICE_A);
-//    }
-
 
 }
